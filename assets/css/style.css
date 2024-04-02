@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap');
+
+
+
+body {
+    background-color: black; 
+    padding-top: 1px;
+}
+
+.navbar-custom {
+    position: absolute;
+    width:  100%;
+    z-index: 1000;
+    color: white;
+}
+
+#carouselExample {
+    position: absolute;
+    z-index: 0;
+}
+
+#somos {
+    position:absolute;
+    margin-top: 850px;
+    color: white;
+}
+@media only screen and (max-width: 768px) {
+    #somos {
+        margin-top: 250px;
+    }
+    #cards {
+        margin-top: 1130px;
+    }
+}
+
+#cards {
+    margin-top: 1250px;
+}
+
+
+#contenedoricono {
+    background-color: #39badf;
+}
+
+.plane,
+.mountain,
+.route {
+    background-color: #39badf;
+}
+
+.lorem {
+    font-size: 12px;
+}
+
+.card {
+    background-color: #39badf;
+}
+
+.card-body {
+    color: white;
+}
+
+.destacados {
+    color: white;
+}
+
+.custom-card {
+    margin-right: -100px !important;
+}
+
+.form {
+    color: white;
+}
+
+
+footer {
+    color: white;
+    background-color: #39badf;
+    padding: 20px;
+}
+
+.fa-brands {
+    font-size: 30px;
+}
+
+
+
+
+
+
